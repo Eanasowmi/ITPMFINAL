@@ -1,0 +1,105 @@
+.sidebar-container {
+  display: flex;
+  height: 100vh;
+  flex: 1;
+  /* background-color: aqua; */
+
+  .sidebar {
+    background-color: #15171b;
+    flex-direction: column;
+    width: 4.5rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 999;
+    overflow-y: auto;
+  }
+}
+
+.sidebar .MuiDrawer-paper {
+  position: static;
+  width: 4.5rem;
+  background-color: #15171b;
+  border-right: none;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar-content {
+  display: flex;
+  align-items: center;
+  background-color: #252627;
+  width: 350px;
+  height: 100%;
+  padding: 16px;
+  position: relative;
+  color: rgb(226, 226, 226);
+}
+
+.sidebar-view {
+  flex-grow: 1;
+}
+
+.close-button-container {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 24px;
+  background-color: #252627;
+  position: absolute;
+  right: -24px;
+  top: 50%;
+  transform: translateY(-50%); /* Center vertically */
+  clip-path: polygon(0% 0%, 90% 20%, 90% 70%, 0% 100%);
+}
+
+.close-button {
+  color: white;
+  border-radius: 0 50% 50% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 50px;
+  margin: auto 0;
+}
+
+.close-button:hover {
+  color: rgb(189, 189, 189);
+}
+
+.icon {
+  color: grey;
+}
+
+.icon-text {
+  text-align: center;
+  color: grey;
+  font-size: 0.75rem;
+  display: block;
+}
+
+.MuiListItem-root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 0; /* Provide some vertical space */
+}
+
+.MuiListItemText-root {
+  margin-top: 4px;
+  display: flex;
+  justify-content: center; /* Center the text horizontally */
+  width: 100%; /* Ensure the text spans the full width for centering */
+  text-align: center; /* Ensure the text is centered */
+}
+
+.MuiListItemIcon-root {
+  display: flex;
+  justify-content: center; /* Center the icon horizontally */
+  width: 100%; /* Ensure the icon spans the full width for centering */
+}
