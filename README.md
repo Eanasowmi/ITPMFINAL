@@ -1,5 +1,5 @@
 # ITPMFINAL
-SLIITPROJECT
+SLIITPROJECT/
 The fashion industry has evolved significantly with the 
 growing demand for personalization and self-expression. 
 In today’s globally connected world, customers seek unique 
